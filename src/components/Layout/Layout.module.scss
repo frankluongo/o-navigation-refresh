@@ -1,0 +1,16 @@
+.Wrapper {
+  display: grid;
+  grid-template-areas:
+    "nav header"
+    "nav main";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.Nav {
+  grid-area: nav;
+}
+
+.Main {
+  grid-area: main;
+}
