@@ -4,3 +4,10 @@
   #{$type}-top: $amount;
   #{$type}-block-start: $amount;
 }
+
+@mixin inline-spacing($type, $amount) {
+  #{$type}-left: $amount;
+  #{$type}-inline-end: $amount;
+  #{$type}-right: $amount;
+  #{$type}-inline-start: $amount;
+}

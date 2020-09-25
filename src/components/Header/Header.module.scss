@@ -1,4 +1,16 @@
 @import "../../styles/base";
 
 .Header {
+  --block-space: 1.5rem;
+
+  align-items: center;
+  display: flex;
+  padding-top: var(--block-space);
+  padding-top: var(--block-space);
+  padding-left: var(--inline-space);
+  padding-right: var(--inline-space);
+}
+
+.HeaderSearch {
+  flex: 0 1 100%;
 }

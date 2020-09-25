@@ -1,0 +1,15 @@
+.NavLink {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+  width: 6rem;
+
+  padding: 1rem;
+  transition: background-color 150ms ease-in-out;
+}
+
+.NavLink:hover,
+.NavLink:focus {
+  background-color: #94001e;
+}

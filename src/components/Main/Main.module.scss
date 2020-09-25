@@ -1,0 +1,11 @@
+@import "../../styles/base";
+
+.MainContent {
+  --block-space: 1.5rem;
+
+  height: 100%;
+  @include block-spacing(padding, var(--block-space));
+  @include inline-spacing(padding, var(--inline-space));
+
+  overflow-y: auto;
+}
