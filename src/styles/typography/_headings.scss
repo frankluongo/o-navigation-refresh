@@ -1,5 +1,15 @@
+:root {
+  --h1: 2.25em;
+  --h2: 1.5em;
+}
+
 h1,
 .h1 {
-  font-size: 2.25rem;
+  font-size: var(--h1);
+  font-weight: bold;
+}
+h2,
+.h2 {
+  font-size: var(--h2);
   font-weight: bold;
 }

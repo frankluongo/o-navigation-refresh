@@ -11,5 +11,5 @@ export default function Avatar({ src }) {
 }
 
 Avatar.defaultProps = {
-  src: "https://www.fillmurray.com/200/200",
+  src: "https://placekitten.com/200/200",
 };

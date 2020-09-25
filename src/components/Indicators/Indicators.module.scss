@@ -1,0 +1,27 @@
+.Indicators {
+  display: flex;
+}
+
+.IndicatorLi {
+  margin-top: 0;
+}
+
+.IndicatorLi:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.Indicator {
+  --indicator-size: 5rem;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: var(--indicator-size);
+  height: var(--indicator-size);
+
+  border-radius: 0.5rem;
+}
+
+.Icon {
+  height: 2rem;
+}
